@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * main - Entry point
  * Description - print without 'printf'
- * Return - always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {/*Justin attempting C*/
