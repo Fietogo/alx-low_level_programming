@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - reverse lowercase alphabet
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char alpha;
