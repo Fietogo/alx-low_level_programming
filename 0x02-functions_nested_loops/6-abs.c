@@ -2,7 +2,8 @@
 /**
  * _abs - Entry point
  * @c: 'interger'
- * Description: 'Write a function that computes the absolute value of an integer'
+ * Description: 'Write a function that computes the absolute
+ * value of an integer'
  * Prototype - int _abs(int)
  * Return: Always 0 Success)
  */
