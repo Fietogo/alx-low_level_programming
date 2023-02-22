@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
