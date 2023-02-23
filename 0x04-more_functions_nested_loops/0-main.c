@@ -14,5 +14,5 @@ int main(void)
 	{
 		printf("%c is not an uppercase letter\n", c);
 	}
-return (0);
+  	return (0);
 }
