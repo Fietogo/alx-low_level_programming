@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isupper - checks if uppercase
- * @c: 'ACSII'
+ * @c: character to check
  * Description: 'Write a function that checks for uppercase character'
  * Prototype: int_isupper(int c)
  * Returns 1 if c is uppercase
