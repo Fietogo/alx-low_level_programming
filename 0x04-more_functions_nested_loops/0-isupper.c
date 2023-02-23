@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isupper -' checks if uppercase'
  * @c: 'ACSII'
@@ -14,7 +13,7 @@ int _isupper(int c)
 {
 	char alpha;
 
-	for (alpha =65; alpha <=90; alpha++)
+	for (alpha = 65; alpha <= 90; alpha++)
 	{
 		if (c <= 90 && c >= 65)
 			return (1);
