@@ -11,7 +11,7 @@
 
 cher *_strncpy(char *dest, char *src, int n)
 {
-	innt j;
+	int j;
 
 	if (len(src) >= n)
 	{
