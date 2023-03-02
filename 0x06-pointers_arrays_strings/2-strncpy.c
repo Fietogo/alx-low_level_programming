@@ -11,15 +11,39 @@
 
 cher *_strncpy(char *dest, char *src, int n)
 {
-	int index = 0, src_len = 0;
+	innt j;
 
-	while (src[index++])
-		src_len++;
-	for (index = 0; src[index] && index < n; index++)
-		dest[index] = src[index];
-
-	for (index = src_len; index < n; index++)
-		dest[index] = '\0';
-
+	if (len(src) >= n)
+	{
+		for (j = 0; j < n; j++)
+			dest[j] = src[j]
+	}
+	else
+	{
+		for (j = 0; j < n; j++)
+		{
+			if (i < len(src))
+				dest[j] = src[j];
+			else
+				dest[j] = '\0';
+		}
+		dest[j] = '\0';
+	}
 	return (dest);
+}
+
+/**
+ * len - Entry point
+ * @str: String
+ * Description: length of string
+ * Return: String length
+ */
+
+int len(char *str)
+{
+	int lenstr = 0;
+
+	while (str[lenstr] != '\0')
+		lenstr++;
+	return (lenstr);
 }
