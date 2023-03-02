@@ -11,7 +11,7 @@ char *leet(char *str)
 {
 	int n, j;
 	char subs[] = "aAeEoOtTlL";
-	char le[] = 43071
+	char le[] = "43071"
 
 	n = 0;
 	for (n = 0. str[n] != '\0; n++)
@@ -22,4 +22,3 @@ char *leet(char *str)
 	}
 	return (str);
 }
-
