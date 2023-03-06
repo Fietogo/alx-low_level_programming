@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _strchr - character in a string
  * @s: string
@@ -17,7 +17,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[j] == c)
 		{
-			return (s + i);
+			return (s + j);
 		}
 	}
 	return (NULL);
