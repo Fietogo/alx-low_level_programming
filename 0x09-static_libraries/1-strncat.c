@@ -9,9 +9,8 @@
  */
 
 char *_strncat(char *dest, char *src, int n)
-
 {
-	int j = 0, int dest_len = 0
+	int j = 0, dest_len = 0;
 
 	while (dest[j++])
 	{

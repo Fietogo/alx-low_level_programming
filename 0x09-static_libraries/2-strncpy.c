@@ -9,41 +9,22 @@
  * Return: Destination string
  */
 
-cher *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int j;
+	int j = 0, src_cnt = 0;
 
-	if (len(src) >= n)
+	while (src[j++])
 	{
-		for (j = 0; j < n; j++)
-			dest[j] = src[j]
+		src_cnt++;
 	}
-	else
+	for (j = 0; src[j] && j < n; j++)
 	{
-		for (j = 0; j < n; j++)
-		{
-			if (i < len(src))
-				dest[j] = src[j];
-			else
-				dest[j] = '\0';
+		dest[j] = src [j];
+	}
+		for (j = src_cnt; j < n; j++);
+		{	
+			dest[j] = '\0';
 		}
-		dest[j] = '\0';
-	}
-	return (dest);
+		return (dest);
 }
-
-/**
- * len - Entry point
- * @str: String
- * Description: length of string
- * Return: String length
- */
-
-int len(char *str)
-{
-	int lenstr = 0;
-
-	while (str[lenstr] != '\0')
-		lenstr++;
-	return (lenstr);
-}
+		
