@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+ * main - Entry
+ * @argc: Argument count
+ * @argv: argument vector
+ *
+ * Return: Always 0 (Success)
+ */
+
+int main(int argc, char *argv[])
+{
+	int j;
+
+	for (j = 0; j < argc; j++)
+		printf("%s\n", argv[j]);
+	return (0);
+}
